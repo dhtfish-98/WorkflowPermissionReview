@@ -11,7 +11,7 @@ class WorkflowTests(unittest.TestCase):
         self.assertEqual(review_text("on: push\npermissions:\n  contents: read\njobs:\n  test:\n    runs-on: ubuntu-latest\n"), [])
 
     def test_write_and_bad_shape(self):
-        self.assertEqual(review_text("permissions: write-all\njobs: {test: {}}")[-1]["rule"], "write-all")
+        self.assertEqual(review_text("on: push\npermissions: write-all\njobs: {test: {}}")[-1]["rule"], "write-all")
         for value in ("[]", "jobs: []", "jobs: {test: []}"):
             with self.subTest(value=value), self.assertRaises(ValueError):
                 review_text(value)
