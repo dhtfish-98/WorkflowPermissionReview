@@ -1,0 +1,30 @@
+{
+  "schema": "project-build-layout.v1",
+  "project": "WorkflowPermissionReview",
+  "author": "dhtfish98",
+  "kind": "manual",
+  "base_public_commit": "cb7f74f924eb47b025d673b268db5bcf03542dfa",
+  "restored_inputs": [
+    {
+      "original": "LICENSE",
+      "stored": "项目文档/LICENSE",
+      "sha256": "61cc81f0067016c9425160ac683a0791c1f9332a48ffe655d21b2602286e21be"
+    },
+    {
+      "original": "ORIGIN.md",
+      "stored": "项目文档/ORIGIN.md",
+      "sha256": "e1fcc60d9a90590606eb95caf83afaeb07c39fae5e3f8a753c90e28b6ff58be2"
+    },
+    {
+      "original": "README.md",
+      "stored": "项目文档/README.md",
+      "sha256": "dbba9423dd0a3094091fe78930022649606bd204d8732c79d06421130b1d15cd"
+    },
+    {
+      "original": "VALIDATION.md",
+      "stored": "项目文档/VALIDATION.md",
+      "sha256": "c41d4edd30193e7c39e314a8c5676888bcb1f9de280c6003e18d80d36c31c65a"
+    }
+  ],
+  "platform_entries": []
+}
